@@ -61,6 +61,7 @@ dependencies {
 
     // hilt
     implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
 
     //room
@@ -69,4 +70,19 @@ dependencies {
 
     //retrofit
     implementation(libs.retrofit2.retrofit)
+
+    // OsmDroid for mapping
+    implementation(libs.osmdroid.android)
+
+    //serialization
+    implementation(libs.kotlinx.serialization.json)
+
+    // Jsoup
+    implementation(libs.jsoup)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+
+    //Extended Material Icons
+    implementation(libs.androidx.material.icons.extended)
 }

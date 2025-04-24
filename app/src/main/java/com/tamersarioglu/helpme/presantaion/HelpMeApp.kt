@@ -1,4 +1,4 @@
-package com.tamersarioglu.helpme
+package com.tamersarioglu.helpme.presantaion
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name=".HelpMeApp"
+        android:name=".presantaion.HelpMeApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelpMe">
         <activity
-            android:name=".MainActivity"
+            android:name=".presantaion.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.HelpMe">
             <intent-filter>
